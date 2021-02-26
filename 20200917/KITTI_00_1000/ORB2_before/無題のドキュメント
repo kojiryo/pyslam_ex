@@ -1,0 +1,9 @@
+rkojima@c05:~/Git/carla-simulator/carla_BU/PythonAPI/mytools/evaluate_ate_scale$ python3 evaluate_ate_scale3d_kitti00.py --plot 20200917-KITTI00-ORB-concat1000-Ow-v2.png --verbose /mnt/disk01/Dataset/KITTI_Dataset/dataset/poses/concat00/00concat1000.csv ~/Git/pyslam/kf_pose.log 
+scale: 0.816162 
+compared_pose_pairs 461 pairs
+absolute_translational_error.rmse 6.416369 m
+absolute_translational_error.mean 5.522321 m
+absolute_translational_error.median 4.985706 m
+absolute_translational_error.std 3.267071 m
+absolute_translational_error.min 0.995169 m
+absolute_translational_error.max 17.366089 m

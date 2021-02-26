@@ -1,0 +1,61 @@
+image:  275
+ @tracking
+img.shape:  (376, 1241, 3)
+camera  376  x  1241
+timestamp:  28.51323
+PyramidAdaptor #levels: 4 (from 0 ), scale_factor: 1.2 , sigma0: 1.0 , type: RESIZE
+detector: FAST , #features: 2000 , [kp-filter: OCTREE_NMS ]
+descriptor: TFEAT, #features:  2000 , frame res:  (376, 1241)
+descriptor: TFEAT , #features: 2000 , [kp-filter: NONE ]
+detector: FAST , descriptor: TFEAT , #features: 2000  (#ref: 2000 ), [kp-filter: NONE ]
+frame:  275
+#replaced points:  0
+descriptor_distance_sigma:  26.80010810938154
+using motion model for next pose prediction
+>>>> tracking previous frame ...
+search frame by projection
+# matched map points in prev frame: 16 
+ # matched map points in prev frame (wider search): 32 
+descriptor sigma:  27.919354530918667
+pose opt proj-frame-frame 
+pose optimization: available  32  points, found  27  bad points
+     error^2: 0.859416,  ok: 1
+     # num_matched_map_points: 5
+ failure in tracking previous frame, # matched map points:  5
+>>>> tracking reference 274 ...
+matching keypoints with  BF
+# keypoints matched: 605 
+descriptor sigma:  26.157194028407396
+# matched map points in prev frame: 19 
+pose opt match-frame-keyframe 
+pose optimization: available  24  points, found  15  bad points
+     error^2: 1.244728,  ok: 1
+      # num_matched_map_points: 9
+ failure in tracking reference 274, # matched map points: 9
+>>>> sleeping for local mapping...
+search_frame_for_triangulation - timer:  0.001142325
+search_frame_for_triangulation - timer:  0.004225538
+search_frame_for_triangulation - timer:  0.001750709
+search_frame_for_triangulation - timer:  0.001217433
+search_frame_for_triangulation - timer:  0.000744279
+search_frame_for_triangulation - timer:  0.000719317
+search_frame_for_triangulation - timer:  0.000621863
+search_frame_for_triangulation - timer:  0.000636826
+search_frame_for_triangulation - timer:  0.003395776
+search_frame_for_triangulation - timer:  0.000727876
+search_frame_for_triangulation - timer:  0.000737594
+search_frame_for_triangulation - timer:  0.000744209
+search_frame_for_triangulation - timer:  0.000660633
+search_frame_for_triangulation - timer:  0.000702854
+search_frame_for_triangulation - timer:  0.000611121
+search_frame_for_triangulation - timer:  0.000689983
+local optimization window:  [223, 227, 230, 233, 235, 237, 240, 243, 246, 251, 254, 257, 260, 263, 266, 269, 271, 274]
+                     refs:  [202, 204, 205, 206, 208, 209, 210, 212, 215, 216, 217, 219]
+                   #points:  1435
+ tracking failure
+ local optimization - perc bad observations: 0.13 %
+ map: 8377 points, 125 keyframes
+tracking duration:  1.2261977195739746
+ KF(274) #points: 62 
+press enter to continue:
+

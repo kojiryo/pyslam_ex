@@ -1,0 +1,2 @@
+{'num_features': 2000, 'num_levels': 1, 'scale_factor': 1.2, 'detector_type': <FeatureDetectorTypes.R2D2: 22>, 'descriptor_type': <FeatureDescriptorTypes.R2D2: 26>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+0.9505832014083863

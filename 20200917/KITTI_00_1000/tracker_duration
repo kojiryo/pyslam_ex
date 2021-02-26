@@ -1,0 +1,14 @@
+map: 31217 points, 500 keyframes
+tracker_config:  {'num_features': 2000, 'num_levels': 8, 'scale_factor': 1.2, 'detector_type': <FeatureDetectorTypes.ORB2: 7>, 'descriptor_type': <FeatureDescriptorTypes.ORB2: 5>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+mean_duration[s]:  0.9725252542495727
+
+
+---KITTI-00-ORB2-1000-Ow
+ map: 31413 points, 497 keyframes
+tracking duration:  0.6397233009338379
+ local optimization - perc bad observations: 0.51 %
+ KF(998) #points: 179 
+..................................
+image:  1000
+tracker_config:  {'num_features': 2000, 'num_levels': 8, 'scale_factor': 1.2, 'detector_type': <FeatureDetectorTypes.ORB2: 7>, 'descriptor_type': <FeatureDescriptorTypes.ORB2: 5>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+mean_duration[s]:  0.9610620727539062

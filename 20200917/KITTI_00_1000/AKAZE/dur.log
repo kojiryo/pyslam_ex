@@ -1,0 +1,2 @@
+{'num_features': 2000, 'num_levels': 8, 'detector_type': <FeatureDetectorTypes.AKAZE: 10>, 'descriptor_type': <FeatureDescriptorTypes.AKAZE: 8>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+0.8476953194141388

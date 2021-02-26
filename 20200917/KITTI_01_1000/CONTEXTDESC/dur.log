@@ -1,0 +1,3 @@
+{'num_features': 2000, 'num_levels': 1, 'scale_factor': 1.2, 'detector_type': <FeatureDetectorTypes.CONTEXTDESC: 20>, 'descriptor_type': <FeatureDescriptorTypes.CONTEXTDESC: 24>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+SlamState: OK
+mean_duration[s]: 0.946260

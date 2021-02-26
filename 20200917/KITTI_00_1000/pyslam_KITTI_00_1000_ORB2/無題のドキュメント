@@ -1,0 +1,24 @@
+(pyslam) (anaconda3-5.3.1) rkojima@c05:~/Git/carla-simulator/carla_BU/PythonAPI/mytools/evaluate_ate_scale$ python3 evaluate_ate_scale3d_kitti00.py --plot 20200917-KITTI00-ORB.png --verbose /mnt/disk01/Dataset/KITTI_Dataset/dataset/poses/00cut.txt ~/Git/ORB_SLAM2_orb_20200430/result/KeyFrameTrajectory_ORB_kitti_00.txt 
+scale: 15.533233 
+compared_pose_pairs 411 pairs
+absolute_translational_error.rmse 3.656116 m
+absolute_translational_error.mean 3.120684 m
+absolute_translational_error.median 2.645186 m
+absolute_translational_error.std 1.904865 m
+absolute_translational_error.min 0.414109 m
+absolute_translational_error.max 10.057123 m
+
+(pyslam) (anaconda3-5.3.1) rkojima@c05:~/Git/carla-simulator/carla_BU/PythonAPI/mytools/evaluate_ate_scale$ python3 evaluate_ate_scale3d_kitti00.py --plot 20200917-KITTI00-ORB-1000.png --verbose /mnt/disk01/Dataset/KITTI_Dataset/dataset/poses/00cut.txt ~/Git/pyslam/kf_pose.log
+scale: 0.420858 
+compared_pose_pairs 498 pairs
+absolute_translational_error.rmse 104.812949 m
+absolute_translational_error.mean 96.129092 m
+absolute_translational_error.median 92.021180 m
+absolute_translational_error.std 41.772622 m
+absolute_translational_error.min 17.746271 m
+absolute_translational_error.max 187.632134 m
+
+image:  1000
+tracker_config:  {'num_features': 2000, 'num_levels': 8, 'scale_factor': 1.2, 'detector_type': <FeatureDetectorTypes.ORB2: 7>, 'descriptor_type': <FeatureDescriptorTypes.ORB2: 5>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+mean_duration[s]:  0.9725252542495727
+

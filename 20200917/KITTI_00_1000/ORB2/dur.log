@@ -1,0 +1,2 @@
+{'num_features': 2000, 'num_levels': 8, 'scale_factor': 1.2, 'detector_type': <FeatureDetectorTypes.ORB2: 7>, 'descriptor_type': <FeatureDescriptorTypes.ORB2: 5>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+0.9452748575210571

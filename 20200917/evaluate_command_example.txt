@@ -1,0 +1,4 @@
+(anaconda3-5.3.1) rkojima@c05:~/Git/pyslam/20200917$ python3 evaluate_ate_scale3d_kitti00.py /mnt/disk01/Dataset/KITTI_Dataset/dataset/poses/concat00/00concat1000.csv KITTI_00_1000/AKAZE/kf_pose.log --verbose
+
+
+rkojima@c05:~/Git/ORB_SLAM2_orb_20200430$ ./Examples/Monocular/mono_kitti_ORB_1000 Vocabulary/ORBvoc.txt ./tfeat-notredame.pt Examples/Monocular/KITTI00-02.yaml /mnt/disk01/Dataset/KITTI_Dataset/dataset/sequences/00

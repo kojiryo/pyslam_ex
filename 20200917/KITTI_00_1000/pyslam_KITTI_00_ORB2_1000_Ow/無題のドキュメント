@@ -1,0 +1,10 @@
+(pyslam) (anaconda3-5.3.1) rkojima@c05:~/Git/carla-simulator/carla_BU/PythonAPI/mytools/evaluate_ate_scale$ python3 evaluate_ate_scale3d_kitti00.py --plot 20200917-KITTI00-ORB-concat1000-Ow.png --verbose /mnt/disk01/Dataset/KITTI_Dataset/dataset/poses/concat00/00concat1000.csv ~/Git/pyslam/kf_pose.log 
+scale: 0.827168 
+compared_pose_pairs 213 pairs
+absolute_translational_error.rmse 6.756039 m
+absolute_translational_error.mean 5.984720 m
+absolute_translational_error.median 5.132872 m
+absolute_translational_error.std 3.134834 m
+absolute_translational_error.min 1.374013 m
+absolute_translational_error.max 14.339362 m
+

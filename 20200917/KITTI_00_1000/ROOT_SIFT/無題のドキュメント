@@ -1,0 +1,2 @@
+tracker_config:  {'num_features': 2000, 'detector_type': <FeatureDetectorTypes.ROOT_SIFT: 4>, 'descriptor_type': <FeatureDescriptorTypes.ROOT_SIFT: 2>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+mean_duration[s]:  0.9832086577415466

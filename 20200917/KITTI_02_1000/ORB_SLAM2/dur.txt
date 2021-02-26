@@ -1,0 +1,3 @@
+median tracking time: 0.0279448
+mean tracking time: 0.0328982
+

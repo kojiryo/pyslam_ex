@@ -1,0 +1,3 @@
+tracker_config:  {'num_features': 2000, 'num_levels': 4, 'scale_factor': 1.2, 'detector_type': <FeatureDetectorTypes.FAST: 2>, 'descriptor_type': <FeatureDescriptorTypes.TFEAT: 11>, 'match_ratio_test': 0.7, 'tracker_type': <FeatureTrackerTypes.DES_BF: 1>}
+mean_duration[s]:  0.3362376792430878
+
